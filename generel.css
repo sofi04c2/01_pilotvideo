@@ -1,0 +1,191 @@
+/* FONTS */
+@font-face {
+  font-family: "H1";
+  src: url("H1/neuton-extralight-webfont.woff2") format("woff1");
+}
+
+@font-face {
+  font-family: "P";
+  src: url("P/taviraj-light-webfont.woff2") format("woff3");
+}
+
+@font-face {
+  font-family: "H1234";
+  src: url("H1234/cormorant-variablefont_wght-webfont.woff2") format("woff2");
+}
+/* Nulstilling af margin og padding på alle elementer, samt ændring af box model på alle elementer */
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Normalisering af font og linjehøjde på dokumentets tekster, samt nedtoning af tekstfarven */
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  color: #000000;
+}
+
+/* Normalisering af billeder */
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 3px solid rgb(121, 117, 106);
+  border-radius: 4px;
+  padding: 5px;
+}
+
+/* BODY,HTML OG IMG  */
+.html.index.html {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-color: #071e0b;
+}
+
+html {
+  font-size: 10px;
+  background-color: #000000;
+  padding: 5px;
+}
+
+body {
+  line-height: 3;
+  background-color: #463d31a3;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* || typography */
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: #000000;
+  font-family: "H1";
+  align-self: center;
+  color: #000000;
+}
+H2 {
+  font-family: "H1234";
+  color: #11521b;
+  font-size: x-large;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family: "P";
+  padding: 20px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* MIT HEADER LEYOUT */
+
+nav,
+footer {
+  background-color: rgba(214, 203, 195, 0.481);
+  padding: 1%;
+  font-size: large;
+  font-family: "H1234";
+}
+
+nav {
+  height: 50px;
+  background-color: #7d7c77bc;
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff4d8;
+}
+
+/*   Mad   */
+
+.img5 {
+  width: 100%;
+  height: auto;
+}
+
+.img1 {
+  width: 100%;
+  height: auto;
+}
+
+/*byer*/
+
+.Rom {
+  border-radius: 50%;
+  align-items: center;
+  gap: 10px;
+}
+
+.milano {
+  border-radius: 50%;
+  align-items: center;
+  gap: 10px;
+}
+
+.rom1 {
+  border-radius: 50%;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  gap: 10px;
+}
+/* billede tekst*/
+
+figcaption {
+  font-family: "H1234";
+  background-color: #000000;
+  inline-size: fit-content;
+  padding: 0.5rem;
+  margin-inline-start: 1rem;
+  border-radius: 8px;
+  transform: translateY(-50%);
+  box-shadow: 0px 5px 10px 2px rgba(11, 47, 106, 0.07);
+  color: #514c46;
+}
+figure img {
+  display: block;
+  inline-size: 100%;
+  border-radius: 10px;
+}
+
+/*test*/
+html {
+  background: url(baggrund3.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.rom {
+  gap: 50px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
+}
